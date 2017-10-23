@@ -1,0 +1,6 @@
+ cd /Users/saurabhvashisht/Library/Android/sdk/platform-tools
+./adb logcat *:S ReactNative:V ReactNativeJS:V
+
+
+cd /Users/saurabhvashisht/Library/Android/sdk/platform-tools
+./adb reverse tcp:8081 tcp:8081
